@@ -1,0 +1,37 @@
+@import '../../styles/colors.scss';
+
+.grey_button {
+    background-color: $button-grey-1;
+
+    &:hover {
+        background-color: rgb(133, 133, 133);
+    }
+}
+
+.MuiFormControl-root {
+    margin: 0px !important;
+    &:hover {
+        .MuiOutlinedInput-notchedOutline {
+            border-color: white !important;
+        }
+        .MuiSelect-select, .MuiInputLabel-root {
+            color: white !important;
+        }
+        .MuiSvgIcon-root {
+            fill: rgb(255, 255, 255) !important;
+        }
+    }
+    .MuiOutlinedInput-notchedOutline {
+        border-color: rgb(104, 104, 104) !important;
+    }
+    
+    .MuiSelect-select, .MuiInputLabel-root {
+        color: rgb(104, 104, 104) !important;
+    }
+    
+    .MuiSvgIcon-root {
+        path {
+            fill: rgb(104, 104, 104) !important;
+        }
+    }
+}

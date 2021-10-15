@@ -13,6 +13,12 @@
     padding: 10px;
     background-color: $blue-3;
     color: $text-1;
+    
+    .bandit_button {
+        width: 100%;
+        margin-top: 10px;
+        height: 45px;
+    }
 
     .panel_tabs {
         display: flex;

@@ -5,7 +5,7 @@ import './style.scss';
 const Tree = () => {
     return(
         <div id="tree">
-            Tree
+            
         </div>
     )
 }
