@@ -1,0 +1,8 @@
+@import '../../styles/colors.scss';
+
+#panel {
+    width: calc(400px - 20px);
+    padding: 10px;
+    background-color: $blue-1;
+    color: $text-1;
+}
