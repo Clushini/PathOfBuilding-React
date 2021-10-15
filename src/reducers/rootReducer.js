@@ -1,7 +1,8 @@
 
 import { combineReducers } from "redux";
-import { testReducer } from "./index";
+import { bandit, panelTab } from "./index";
 
 export default combineReducers({
-    testReducer
+    bandit,
+    panelTab
 });

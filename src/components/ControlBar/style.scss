@@ -1,0 +1,16 @@
+@import '../../styles/colors.scss';
+
+#controlbar {
+    height: 55px;
+    background-color: $blue-2;
+    display: flex;
+    align-items: center;
+}
+
+.glowbar_horizontal {
+    height: 1px;
+    background-color: $blue-5;
+    -webkit-box-shadow: 0px 0px 2px 2px rgba(95,249,255,0.1); 
+    box-shadow: 0px 0px 2px 2px rgba(95,249,255,0.1);
+    z-index: 2;
+}

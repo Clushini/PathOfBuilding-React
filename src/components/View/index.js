@@ -1,13 +1,13 @@
 import React from 'react';
+import { getComponentFromTabName } from './helpers';
 import { useSelector, useDispatch } from 'react-redux';
 import "./style.scss";
 
 const View = () => {
-    const test = useSelector((state) => state.testReducer.test);
-    console.log(test);
+    const currentTab = useSelector(state => state.panelTab.activeTab);
     return(
         <div id="view">
-            View
+            {getComponentFromTabName(currentTab)}
         </div>
     )
 }
