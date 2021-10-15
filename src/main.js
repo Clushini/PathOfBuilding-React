@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
+import Panel from './components/Panel';
+import View from './components/View';
+import './styles/index.scss'
 
 const Main = () => {
-  return(
-    <div>
-      test
-    </div>
-  )
+	return(
+		<div id="main_wrap">
+			<Panel />
+			<View />
+		</div>
+	)
 }
 
 export default Main;
